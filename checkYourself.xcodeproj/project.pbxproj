@@ -14,6 +14,16 @@
 		AFD840AF1CC4A41A001EBF3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFD840AD1CC4A41A001EBF3F /* LaunchScreen.storyboard */; };
 		AFD840BA1CC4A41A001EBF3F /* checkYourselfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD840B91CC4A41A001EBF3F /* checkYourselfTests.swift */; };
 		AFD840C51CC4A41A001EBF3F /* checkYourselfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFD840C41CC4A41A001EBF3F /* checkYourselfUITests.swift */; };
+		AFF2D0551CC4C2BD00766653 /* manner.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF2D0541CC4C2BD00766653 /* manner.swift */; };
+		AFF2D0591CC507EF00766653 /* Cough.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF2D0581CC507EF00766653 /* Cough.swift */; };
+		AFF2D05B1CC5086300766653 /* Swearing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF2D05A1CC5086300766653 /* Swearing.swift */; };
+		AFF2D05D1CC508CC00766653 /* insideVoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF2D05C1CC508CC00766653 /* insideVoice.swift */; };
+		AFF2D05F1CC50A8400766653 /* Eating.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF2D05E1CC50A8400766653 /* Eating.swift */; };
+		AFF2D0611CC50AE200766653 /* Harming.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF2D0601CC50AE200766653 /* Harming.swift */; };
+		AFF2D0631CC50B3900766653 /* Helping.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF2D0621CC50B3900766653 /* Helping.swift */; };
+		AFF2D0651CC50B7700766653 /* Respect.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF2D0641CC50B7700766653 /* Respect.swift */; };
+		AFF2D0671CC50BD800766653 /* Asking.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF2D0661CC50BD800766653 /* Asking.swift */; };
+		AFF2D06D1CC58C4A00766653 /* MannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFF2D06C1CC58C4A00766653 /* MannerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +57,16 @@
 		AFD840C01CC4A41A001EBF3F /* checkYourselfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = checkYourselfUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFD840C41CC4A41A001EBF3F /* checkYourselfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checkYourselfUITests.swift; sourceTree = "<group>"; };
 		AFD840C61CC4A41A001EBF3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFF2D0541CC4C2BD00766653 /* manner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = manner.swift; sourceTree = "<group>"; };
+		AFF2D0581CC507EF00766653 /* Cough.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cough.swift; sourceTree = "<group>"; };
+		AFF2D05A1CC5086300766653 /* Swearing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swearing.swift; sourceTree = "<group>"; };
+		AFF2D05C1CC508CC00766653 /* insideVoice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = insideVoice.swift; sourceTree = "<group>"; };
+		AFF2D05E1CC50A8400766653 /* Eating.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Eating.swift; sourceTree = "<group>"; };
+		AFF2D0601CC50AE200766653 /* Harming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Harming.swift; sourceTree = "<group>"; };
+		AFF2D0621CC50B3900766653 /* Helping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helping.swift; sourceTree = "<group>"; };
+		AFF2D0641CC50B7700766653 /* Respect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Respect.swift; sourceTree = "<group>"; };
+		AFF2D0661CC50BD800766653 /* Asking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Asking.swift; sourceTree = "<group>"; };
+		AFF2D06C1CC58C4A00766653 /* MannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MannerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +117,20 @@
 		AFD840A31CC4A41A001EBF3F /* checkYourself */ = {
 			isa = PBXGroup;
 			children = (
-				AFD840A41CC4A41A001EBF3F /* AppDelegate.swift */,
-				AFD840A61CC4A41A001EBF3F /* ViewController.swift */,
-				AFD840A81CC4A41A001EBF3F /* Main.storyboard */,
 				AFD840AB1CC4A41A001EBF3F /* Assets.xcassets */,
+				AFD840A41CC4A41A001EBF3F /* AppDelegate.swift */,
+				AFD840A81CC4A41A001EBF3F /* Main.storyboard */,
+				AFD840A61CC4A41A001EBF3F /* ViewController.swift */,
+				AFF2D06C1CC58C4A00766653 /* MannerViewController.swift */,
+				AFF2D0541CC4C2BD00766653 /* manner.swift */,
+				AFF2D0581CC507EF00766653 /* Cough.swift */,
+				AFF2D05A1CC5086300766653 /* Swearing.swift */,
+				AFF2D0661CC50BD800766653 /* Asking.swift */,
+				AFF2D0641CC50B7700766653 /* Respect.swift */,
+				AFF2D0621CC50B3900766653 /* Helping.swift */,
+				AFF2D0601CC50AE200766653 /* Harming.swift */,
+				AFF2D05E1CC50A8400766653 /* Eating.swift */,
+				AFF2D05C1CC508CC00766653 /* insideVoice.swift */,
 				AFD840AD1CC4A41A001EBF3F /* LaunchScreen.storyboard */,
 				AFD840B01CC4A41A001EBF3F /* Info.plist */,
 			);
@@ -259,8 +289,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFF2D0591CC507EF00766653 /* Cough.swift in Sources */,
 				AFD840A71CC4A41A001EBF3F /* ViewController.swift in Sources */,
+				AFF2D05D1CC508CC00766653 /* insideVoice.swift in Sources */,
+				AFF2D0611CC50AE200766653 /* Harming.swift in Sources */,
+				AFF2D0671CC50BD800766653 /* Asking.swift in Sources */,
+				AFF2D06D1CC58C4A00766653 /* MannerViewController.swift in Sources */,
 				AFD840A51CC4A41A001EBF3F /* AppDelegate.swift in Sources */,
+				AFF2D05B1CC5086300766653 /* Swearing.swift in Sources */,
+				AFF2D0551CC4C2BD00766653 /* manner.swift in Sources */,
+				AFF2D0631CC50B3900766653 /* Helping.swift in Sources */,
+				AFF2D0651CC50B7700766653 /* Respect.swift in Sources */,
+				AFF2D05F1CC50A8400766653 /* Eating.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,6 +527,7 @@
 				AFD840CB1CC4A41A001EBF3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFD840CC1CC4A41A001EBF3F /* Build configuration list for PBXNativeTarget "checkYourselfTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +536,7 @@
 				AFD840CE1CC4A41A001EBF3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AFD840CF1CC4A41A001EBF3F /* Build configuration list for PBXNativeTarget "checkYourselfUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +545,7 @@
 				AFD840D11CC4A41A001EBF3F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
